@@ -1,0 +1,17 @@
+{
+  "name": "test-tape-coverage",
+  "version": "1.0.0",
+  "description": "Test tape Coverage",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc npm run test",
+    "test": "tape test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "supports-color": "^9.2.1",
+    "tape": "^5.3.2"
+  }
+}
